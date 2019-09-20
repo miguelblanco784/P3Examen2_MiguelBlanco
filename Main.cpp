@@ -95,7 +95,7 @@ int metodoevaluar(Pila* pila){
 		
 		opa = atoi(pila->pop()->getData().c_str());
 		acum = opa;
-		if(pila->isEmpty()!= NULL){
+		if(pila->isEmpty() == NULL){
 			opb = pila->pop()->getData();
 			opc = atoi(pila->pop()->getData().c_str());
 			
